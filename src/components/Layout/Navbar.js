@@ -3,7 +3,7 @@ import {Link,NavLink} from 'react-router-dom'
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div classNameName="comtainer">
+   
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             React User
@@ -38,8 +38,11 @@ function Navbar() {
               </li>
             </ul>
           </div>
+          <Link type="button" class="btn btn-outline-light" to='/user/add'>Add User</Link>
         </div>
-      </div>
+      
+   
+     
     </nav>
   );
 }
